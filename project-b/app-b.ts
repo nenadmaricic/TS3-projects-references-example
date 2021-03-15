@@ -1,3 +1,3 @@
-import * as utils from '../common/index';
+import * as utils from '@test/common';
 
 utils.logProjectName("project-b");

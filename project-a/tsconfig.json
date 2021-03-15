@@ -10,11 +10,11 @@
     "types": [
       "node"
     ],
-    "outDir": "out/project-a"
+    "outDir": "out"   
   },
   "references": [
     {
       "path": "../common"
     }
-  ]
+  ]  
 }

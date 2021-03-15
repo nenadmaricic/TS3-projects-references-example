@@ -5,7 +5,7 @@
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
-    "outDir": "../project-a/out/common",
+    "outDir": "out",
     "rootDir": ".",
     "composite": true,
     "strict": true,

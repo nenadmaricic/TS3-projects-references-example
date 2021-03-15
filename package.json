@@ -9,8 +9,8 @@
     "build-a": "tsc -b project-a",
     "watch-a": "tsc -b --watch project-a",
     "build-b": "tsc -b project-b",
-    "start": "node project-a/out/project-a/app-a.js && node project-b/out/app-b.js",
-    "start-a": "node project-a/out/project-a/app-a.js"
+    "start": "node project-a/out/app-a.js && node project-b/out/app-b.js",
+    "start-a": "node project-a/out/app-a.js"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,7 @@
   "private": true,
   "workspaces": [
     "project-a",
-    "project-b"
+    "project-b",
+    "common"
   ]
 }
