@@ -1,5 +1,1 @@
-import utils = require('./utils');
-
-export = {
-    utils
-};
+export * from './utils';

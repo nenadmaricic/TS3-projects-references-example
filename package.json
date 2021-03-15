@@ -7,8 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "buildAll": "tsc -b project-a project-b",
     "build-a": "tsc -b project-a",
+    "watch-a": "tsc -b --watch project-a",
     "build-b": "tsc -b project-b",
-    "start": "node project-a/app-a.js && node project-b/app-b.js"
+    "start": "node project-a/out/project-a/app-a.js && node project-b/out/app-b.js",
+    "start-a": "node project-a/out/project-a/app-a.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +30,10 @@
   "devDependencies": {
     "@types/node": "^11.9.4",
     "typescript": "^3.3.3"
-  }
+  },
+  "private": true,
+  "workspaces": [
+    "project-a",
+    "project-b"
+  ]
 }

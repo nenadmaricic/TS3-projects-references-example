@@ -1,7 +1,5 @@
-const logProjectName = (name: string) => {
+export const logProjectName = (name: string) => {
+    console.log(`--------------------*`);
     console.log(name);
-};
-
-export = {
-    logProjectName
+    console.log(`*--------------------`);
 };
